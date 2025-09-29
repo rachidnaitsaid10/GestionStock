@@ -39,31 +39,10 @@ def UpdateProduct():
 
 # UpdateProduct()
 
-
-def UpdateProduct():
-    NomProduct = str(input("Entry Product Name :"))
-    index = np.where(Products == NomProduct)
-    if len(index[0]) == 0:
-        print("Product Not Found")
-    else:
-        Qunt = int(input("Entre Quantit :"))
-        Products[index[0], 1] = Qunt
-    print(Products)
-
-# UpdateProduct()
-
 def DisplayProducts():
     for product in range(len(Products)):
         Element = Products[product]
-        print(f"Nom : {Element[0]} \nQunt : {Element[1]} \nPrix : {Element[2]} ")
-        print("-"*15)
-
-DisplayProducts()
-
-def DisplayProducts():
-    for product in range(len(Products)):
-        Element = Products[product]
-        print(f"Nom : {Element[0]} \nQunt : {Element[1]} \nPrix : {Element[2]} ")
-        print("-"*15)
+        print(f"Nom : {Element[0]} | Qunt : {Element[1]} | Prix : {Element[2]} ")
+        print("-"*50)
 
 DisplayProducts()
