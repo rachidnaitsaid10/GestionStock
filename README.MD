@@ -64,7 +64,9 @@ stock-manager/
 
 ### 1. Cloner le dépôt
 
-*(Pour un environnement réel, les instructions de clonage Git iraient ici)*
+```bash
+git clone https://github.com/rachidnaitsaid10/GestionStock
+```
 
 ### 2. Installer les dépendances
 
