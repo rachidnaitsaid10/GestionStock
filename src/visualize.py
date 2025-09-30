@@ -18,8 +18,8 @@ def pie_chart(nom,qte,prix):
 
 
 
-bar_chart(nom,qte)
-pie_chart(nom,qte,prix)
+#bar_chart(nom,qte)
+#pie_chart(nom,qte,prix)
 
 
 

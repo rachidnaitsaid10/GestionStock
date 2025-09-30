@@ -1,4 +1,5 @@
 import numpy as np
+
 data = np.array([
     ["Clavier", 10, 40.5],
     ["Souris", 5, 20.0],
@@ -7,4 +8,3 @@ data = np.array([
     ["Bureau", 11, 900.45],
 
 ])
-print(data)

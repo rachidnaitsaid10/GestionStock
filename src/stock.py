@@ -45,4 +45,4 @@ def DisplayProducts():
         print(f"Nom : {Element[0]} | Qunt : {Element[1]} | Prix : {Element[2]} ")
         print("-"*50)
 
-DisplayProducts()
+#DisplayProducts()

@@ -31,7 +31,7 @@ def produit_cher(prix):
 
 
 
-total_stock(qte,prix)
-moyen_prix(prix)
-min_max_prix(prix)
-produit_cher(prix)
+#total_stock(qte,prix)
+#moyen_prix(prix)
+#min_max_prix(prix)
+#produit_cher(prix)
